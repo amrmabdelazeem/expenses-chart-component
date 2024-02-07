@@ -1,9 +1,10 @@
+import MyBalance from "./components/MyBalance/MyBalance"
+
 function App() {
 
   return (
     <>
-      My balance
-  $921.48
+    <MyBalance/>
 
   Spending - Last 7 days
 
