@@ -1,27 +1,15 @@
 import MyBalance from "./components/MyBalance/MyBalance";
+import MainExpense from "./components/MainExpense/MainExpense";
 import './styles/App.css';
 
 function App() {
 
   return (
     <>
+    
     <MyBalance/>
+    <MainExpense/>
 
-  Spending - Last 7 days
-
-  mon
-  tue
-  wed
-  thu
-  fri
-  sat
-  sun
-
-  Total this month
-  $478.33
-
-  +2.4%
-  from last month
     </>
   )
 }
