@@ -1,4 +1,5 @@
-import MyBalance from "./components/MyBalance/MyBalance"
+import MyBalance from "./components/MyBalance/MyBalance";
+import './styles/App.css';
 
 function App() {
 
