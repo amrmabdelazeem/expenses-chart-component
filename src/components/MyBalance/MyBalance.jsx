@@ -3,8 +3,8 @@ export default function MyBalance() {
   return (
     <header>
       <div className="balance">
-        <h1>My balance</h1>
-        <p>$921.48</p>
+        <p>My balance</p>
+        <h1>$921.48</h1>
       </div>
       <div className="logo">
         <svg width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg">
