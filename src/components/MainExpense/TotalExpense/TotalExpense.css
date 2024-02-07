@@ -1,8 +1,9 @@
 .totalExpense {
-  margin: 1rem 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 2px solid hsl(27, 66%, 92%);
+  padding-top: 1rem;
 }
 .totalExpense p {
   color: hsl(28, 10%, 53%);
