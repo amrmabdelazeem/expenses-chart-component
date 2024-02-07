@@ -1,1 +1,21 @@
-@import 'vars', 'utils';
+@import '../../styles/vars';
+
+header{
+    background-color: $primary-color;
+    color: $bg-inner;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.2rem;
+    border-radius: 10px;
+
+    h1{
+        font-size: 1rem;
+        font-weight: 400;
+        margin-bottom: .5rem;
+    }
+
+    p{
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+}

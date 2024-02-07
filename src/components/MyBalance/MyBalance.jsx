@@ -1,3 +1,4 @@
+import './MyBalance.css'
 export default function MyBalance() {
   return (
     <header>
