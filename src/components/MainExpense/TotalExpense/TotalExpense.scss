@@ -1,0 +1,30 @@
+@import '../../../styles/vars';
+
+.totalExpense{
+    margin: 1rem .5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+        color: $heading-total-text;
+        font-size: $body-font-size;
+    }
+
+    .currentMonth{
+        h3{
+            font-weight: 700;
+            font-size: 2.3rem;
+        }
+    }
+
+    .lastMonth{
+        align-self: flex-end;
+        padding-bottom: .3rem;
+        h4{
+            font-weight: 700;
+            font-size: 1rem;
+            text-align: right;
+        }
+    }
+}
