@@ -2,4 +2,49 @@ main {
   background-color: hsl(33, 100%, 98%);
   padding: 1rem;
   border-radius: 10px;
+}
+main .chart {
+  height: 200px;
+}
+main .chart .bars {
+  height: 80%;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  margin-bottom: 0.5rem;
+}
+main .chart .bars .bar {
+  width: 30px;
+  height: 20px;
+  border-radius: 3px;
+  background-color: hsl(10, 79%, 65%);
+}
+main .chart .bars .bar-1 {
+  height: 30%;
+}
+main .chart .bars .bar-2 {
+  height: 50%;
+}
+main .chart .bars .bar-3 {
+  height: 80%;
+  background-color: hsl(186, 34%, 60%);
+}
+main .chart .bars .bar-4 {
+  height: 45%;
+}
+main .chart .bars .bar-5 {
+  height: 30%;
+}
+main .chart .bars .bar-6 {
+  height: 60%;
+}
+main .chart .bars .bar-7 {
+  height: 40%;
+}
+main .chart .days {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  font-size: 12px;
+  color: hsl(25, 47%, 15%);
 }/*# sourceMappingURL=MainExpense.css.map */

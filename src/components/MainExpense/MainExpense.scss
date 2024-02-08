@@ -4,4 +4,54 @@ main{
     background-color: $bg-inner;
     padding: 1rem;
     border-radius: 10px;
+
+    .chart{
+        height: 200px;
+
+        .bars{
+            height: 80%;
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            margin-bottom: .5rem;
+
+
+            .bar{
+                width: 30px;
+                height: 20px;
+                border-radius: 3px;
+                background-color: $primary-color;
+            }
+            
+            .bar-1{
+                height: 30%;
+            }
+            .bar-2{
+                height: 50%;
+            }
+            .bar-3{
+                height: 80%;
+                background-color: $secondary-color;
+            }
+            .bar-4{
+                height: 45%;
+            }
+            .bar-5{
+                height: 30%;
+            }
+            .bar-6{
+                height: 60%;
+            }
+            .bar-7{
+                height: 40%;
+            }
+        }
+        .days{
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-end;
+            font-size: 12px;
+            color: $heading-dark-brown
+        }
+    }
 }
