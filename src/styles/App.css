@@ -11,9 +11,11 @@ body {
 
 #root {
   height: 100vh;
+  min-width: 350px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   overflow: hidden;
   padding: 1rem;
 }/*# sourceMappingURL=App.css.map */

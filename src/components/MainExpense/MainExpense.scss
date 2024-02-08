@@ -1,17 +1,18 @@
 @import '../../styles/vars';
 
 main{
+    width: 100%;
     background-color: $bg-inner;
     padding: 1rem;
     border-radius: 10px;
-
+    max-width: 400px;
     .chart{
         height: 200px;
 
         .bars{
             height: 80%;
             display: flex;
-            justify-content: space-around;
+            justify-content: space-evenly;
             align-items: flex-end;
             margin-bottom: .5rem;
 
@@ -22,10 +23,11 @@ main{
                 border-radius: 3px;
                 background-color: $primary-color;
             }
-            
+
             .bar-1{
                 height: 30%;
             }
+
             .bar-2{
                 height: 50%;
             }
@@ -49,9 +51,9 @@ main{
         .days{
             display: flex;
             justify-content: space-around;
-            align-items: flex-end;
-            font-size: 12px;
-            color: $heading-dark-brown
+            font-size: 13px;
+            color: $heading-dark-brown;
+            padding-right: .5rem;
         }
     }
 }
