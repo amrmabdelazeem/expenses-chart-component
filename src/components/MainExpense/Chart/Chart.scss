@@ -1,0 +1,85 @@
+@import "../../../styles/vars";
+
+%flexing{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+%relative{
+  position: relative;
+}
+
+.chart {
+  height: 200px;
+
+  .bars {
+    @extend %flexing;
+    align-items: flex-end;
+    height: 80%;
+    margin-bottom: 0.5rem;
+
+    
+    .bar {
+      width: 30px;
+      border-radius: 3px;
+      background-color: $primary-color;
+
+
+      &-1, &-5{
+        @extend %relative;
+        height: 30%;
+      }
+
+      &-2{
+        @extend %relative;
+        height: 50%;
+      }
+
+      &-3{
+        @extend %relative;
+        height: 80%;
+        background-color: $secondary-color;
+      }
+      &-4{
+        @extend %relative;
+        height: 45%;
+      }
+      &-6{
+        @extend %relative;
+        height: 60%;
+      }
+      &-7{
+        @extend %relative;
+        height: 40%;
+      }
+    }
+
+    @for $i from 1 through 7 {
+        .bar-#{$i}::before {
+          content: attr(data-tooltip);
+          position: absolute;
+          top: -1.5rem;
+          left: -0.1rem;
+          font-size: 0.7em;
+          background-color: $heading-dark-brown;
+          color: $bg-inner;
+          padding: 0.2rem;
+          border-radius: 3px;
+          opacity: 0;
+        }
+        .bar-#{$i}:hover::before {
+          opacity: 1;
+        }
+        .bar-#{$i}:hover {
+          opacity: 0.5;
+          cursor: pointer;
+        }
+      }
+  }
+  .days {
+    @extend %flexing;
+    font-size: 13px;
+    color: $heading-dark-brown;
+    padding-right: 0.5rem;
+  }
+}
