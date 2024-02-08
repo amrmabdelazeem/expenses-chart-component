@@ -26,10 +26,42 @@ main{
 
             .bar-1{
                 height: 30%;
+                position: relative;
+            }
+
+            .bar-1::before{
+                content: "$52.36";
+                position: absolute;
+                top: -1.5rem;
+                left: -.4rem;
+                font-size: .7em;
+                background-color: $heading-dark-brown;
+                color: $bg-inner;
+                padding: .2rem;
+                border-radius: 3px;
+                opacity: 0;
+            }
+
+            .bar-1:hover::before{
+                opacity: 1;
             }
 
             .bar-2{
                 height: 50%;
+                position: relative;
+            }
+
+            
+            .bar-2::before{
+                content: "$52.36";
+                position: absolute;
+                top: -1.5rem;
+                left: -.4rem;
+                font-size: .7em;
+                background-color: $heading-dark-brown;
+                color: $bg-inner;
+                padding: .2rem;
+                border-radius: 3px;
             }
             .bar-3{
                 height: 80%;

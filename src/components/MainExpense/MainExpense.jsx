@@ -9,8 +9,8 @@ export default function MainExpense() {
         <h2>Spending - Last 7 days</h2>
         <div className="chart">
           <div className="bars">
-            <div className="bar bar-1"></div>
-            <div className="bar bar-2"></div>
+            <div className="bar bar-1" data-tooltip={data[0].amount}></div>
+            <div className="bar bar-2" data-tooltip={data[1].amount}></div>
             <div className="bar bar-3"></div>
             <div className="bar bar-4"></div>
             <div className="bar bar-5"></div>
