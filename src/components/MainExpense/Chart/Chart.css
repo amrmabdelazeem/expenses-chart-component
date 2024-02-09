@@ -1,8 +1,3 @@
-@keyframes barsAnimation {
-  from {
-    height: 0%;
-  }
-}
 .chart .days, .chart .bars {
   display: flex;
   justify-content: space-evenly;
@@ -192,4 +187,10 @@
   font-size: 13px;
   color: hsl(25, 47%, 15%);
   padding-right: 0.5rem;
+}
+
+@keyframes barsAnimation {
+  from {
+    height: 0%;
+  }
 }/*# sourceMappingURL=Chart.css.map */
