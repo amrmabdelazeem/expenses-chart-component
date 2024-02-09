@@ -1,1 +1,1 @@
-{"version":3,"sources":["MainExpense.scss","../../styles/_vars.scss","MainExpense.css"],"names":[],"mappings":"AAEA;EACI,WAAA;EACA,oCCEM;EDDN,aAAA;EACA,mBAAA;EACA,gBAAA;AEDJ","file":"MainExpense.css"}
+{"version":3,"sources":["MainExpense.scss","../../styles/_vars.scss","MainExpense.css"],"names":[],"mappings":"AAEA;EACI,WAAA;EACA,oCCEM;EDDN,aAAA;EACA,mBAAA;EACA,gBAAA;AEDJ;AFIQ;EACI,oBAAA;AEFZ","file":"MainExpense.css"}
