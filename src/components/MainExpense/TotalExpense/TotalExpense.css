@@ -1,3 +1,8 @@
+@keyframes barsAnimation {
+  from {
+    height: 0%;
+  }
+}
 .totalExpense {
   display: flex;
   justify-content: space-between;

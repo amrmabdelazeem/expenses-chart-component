@@ -1,3 +1,8 @@
+@keyframes barsAnimation {
+  from {
+    height: 0%;
+  }
+}
 .chart .days, .chart .bars {
   display: flex;
   justify-content: space-evenly;
@@ -19,6 +24,10 @@
   width: 30px;
   border-radius: 3px;
   background-color: hsl(10, 79%, 65%);
+  animation-name: barsAnimation;
+  animation-duration: 1.2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
 }
 .chart .bars .bar-1, .chart .bars .bar-5 {
   height: 30%;
@@ -50,6 +59,7 @@
   padding: 0.2rem;
   border-radius: 3px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 .chart .bars .bar-1:hover::before {
   opacity: 1;
@@ -69,6 +79,7 @@
   padding: 0.2rem;
   border-radius: 3px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 .chart .bars .bar-2:hover::before {
   opacity: 1;
@@ -88,6 +99,7 @@
   padding: 0.2rem;
   border-radius: 3px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 .chart .bars .bar-3:hover::before {
   opacity: 1;
@@ -107,6 +119,7 @@
   padding: 0.2rem;
   border-radius: 3px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 .chart .bars .bar-4:hover::before {
   opacity: 1;
@@ -126,6 +139,7 @@
   padding: 0.2rem;
   border-radius: 3px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 .chart .bars .bar-5:hover::before {
   opacity: 1;
@@ -145,6 +159,7 @@
   padding: 0.2rem;
   border-radius: 3px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 .chart .bars .bar-6:hover::before {
   opacity: 1;
@@ -164,6 +179,7 @@
   padding: 0.2rem;
   border-radius: 3px;
   opacity: 0;
+  transition: opacity 0.5s ease-in-out;
 }
 .chart .bars .bar-7:hover::before {
   opacity: 1;

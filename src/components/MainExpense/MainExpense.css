@@ -1,3 +1,8 @@
+@keyframes barsAnimation {
+  from {
+    height: 0%;
+  }
+}
 main {
   width: 100%;
   background-color: hsl(33, 100%, 98%);

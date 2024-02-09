@@ -23,7 +23,10 @@
       width: 30px;
       border-radius: 3px;
       background-color: $primary-color;
-
+      animation-name: barsAnimation;
+      animation-duration: 1.2s;
+      animation-timing-function: ease-in-out;
+      animation-fill-mode: forwards;
 
       &-1, &-5{
         @extend %relative;
@@ -66,6 +69,7 @@
           padding: 0.2rem;
           border-radius: 3px;
           opacity: 0;
+          transition: opacity .5s ease-in-out;
         }
         .bar-#{$i}:hover::before {
           opacity: 1;
