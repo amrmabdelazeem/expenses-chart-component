@@ -10,7 +10,7 @@ export default function Chart() {
             <div
               key={chart.day}
               className={`bar bar-${index + 1}`}
-              data-tooltip={chart.amount}
+              data-tooltip={'$'+chart.amount}
             ></div>
           );
         })}
