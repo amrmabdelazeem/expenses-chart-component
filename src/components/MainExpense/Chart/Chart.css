@@ -1,6 +1,6 @@
 .chart .days, .chart .bars {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .chart .bars .bar-7, .chart .bars .bar-6, .chart .bars .bar-4, .chart .bars .bar-3, .chart .bars .bar-2, .chart .bars .bar-1, .chart .bars .bar-5 {
@@ -184,9 +184,12 @@
   cursor: pointer;
 }
 .chart .days {
-  font-size: 13px;
+  font-size: 0.8rem;
   color: hsl(25, 47%, 15%);
-  padding-right: 0.5rem;
+}
+.chart .days p {
+  width: 30px;
+  text-align: center;
 }
 
 @keyframes barsAnimation {

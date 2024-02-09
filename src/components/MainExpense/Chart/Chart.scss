@@ -2,7 +2,7 @@
 
 %flexing{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 %relative{
@@ -82,9 +82,13 @@
   }
   .days {
     @extend %flexing;
-    font-size: 13px;
+    font-size: .8rem;
     color: $heading-dark-brown;
-    padding-right: 0.5rem;
+
+    p{
+      width: 30px;
+      text-align: center;
+    }
   }
 }
 
